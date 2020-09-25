@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZGCommonComponent_Example' do
+  pod 'ZGCommonComponent', :path => '../'
+
+  target 'ZGCommonComponent_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
