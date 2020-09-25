@@ -1,0 +1,33 @@
+{
+  "name": "ZGCommonComponent",
+  "version": "0.1.0",
+  "summary": "A short description of ZGCommonComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhouluyao2020/ZGCommonComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "437001178@qq.com": "zly77153@offcn.com"
+  },
+  "source": {
+    "git": "https://github.com/zhouluyao2020/ZGCommonComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Const",
+      "source_files": "ZGCommonComponent/Classes/Const/*.{h,m}",
+      "public_header_files": "ZGCommonComponent/Classes/Const/*.h"
+    },
+    {
+      "name": "Model",
+      "source_files": "ZGCommonComponent/Classes/Model/*.{h,m}",
+      "public_header_files": "ZGCommonComponent/Classes/Model/*.h"
+    }
+  ]
+}

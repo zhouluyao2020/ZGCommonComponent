@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/437001178@qq.com/ZGCommonComponent'
+  s.homepage         = 'https://github.com/zhouluyao2020/ZGCommonComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '437001178@qq.com' => 'zly77153@offcn.com' }
-  s.source           = { :git => 'https://github.com/437001178@qq.com/ZGCommonComponent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhouluyao2020/ZGCommonComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZGCommonComponent/Classes/**/*'
+
+  s.subspec 'Const' do |s|
+    s.source_files = 'ZGCommonComponent/Classes/Const/*.{h,m}'
+    s.public_header_files = 'ZGCommonComponent/Classes/Const/*.h'
+  end
   
-  # s.resource_bundles = {
-  #   'ZGCommonComponent' => ['ZGCommonComponent/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Model' do |s|
+    s.source_files = 'ZGCommonComponent/Classes/Model/*.{h,m}'
+    s.public_header_files = 'ZGCommonComponent/Classes/Model/*.h'
+  end
 end

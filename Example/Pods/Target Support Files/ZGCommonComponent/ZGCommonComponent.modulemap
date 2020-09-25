@@ -1,0 +1,6 @@
+framework module ZGCommonComponent {
+  umbrella header "ZGCommonComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

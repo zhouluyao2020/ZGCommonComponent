@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZGCommonComponent (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZGCommonComponent (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZGCommonComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZGCommonComponent: 21c999a19ea4d51942dd1774ded46a27921c46f2
+
+PODFILE CHECKSUM: 4d77196c200df3cb4665cddec33a50b442310567
+
+COCOAPODS: 1.9.1
