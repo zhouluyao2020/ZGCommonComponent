@@ -30,14 +30,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-
-  s.subspec 'Const' do |s|
-    s.source_files = 'ZGCommonComponent/Classes/Const/*.{h,m}'
-    s.public_header_files = 'ZGCommonComponent/Classes/Const/*.h'
-  end
+s.source_files = 'ZGCommonComponent/Classes/**/*'
+  # s.subspec 'Const' do |s|
+  #   s.source_files = 'ZGCommonComponent/Classes/Const/*.{h,m}'
+  #   s.public_header_files = 'ZGCommonComponent/Classes/Const/*.h'
+  # end
   
-  s.subspec 'Model' do |s|
-    s.source_files = 'ZGCommonComponent/Classes/Model/*.{h,m}'
-    s.public_header_files = 'ZGCommonComponent/Classes/Model/*.h'
-  end
+  # s.subspec 'Model' do |s|
+  #   s.source_files = 'ZGCommonComponent/Classes/Model/*.{h,m}'
+  #   s.public_header_files = 'ZGCommonComponent/Classes/Model/*.h'
+  # end
+  s.dependency 'AFNetworking', '~> 3.1.0'
+  s.dependency 'YYModel','~> 1.0.4'
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
+  s.dependency 'MJRefresh','3.1.15'
+  s.dependency 'Reachability', '~> 3.2'
 end

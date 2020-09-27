@@ -7,12 +7,14 @@
 //
 
 #import "ZGAppDelegate.h"
-
+#import <ZGCommonComponent/ZGFileInfoModel.h>
 @implementation ZGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    ZGFileInfoModel *model ;
+    model.fileURL;
     return YES;
 }
 

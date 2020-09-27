@@ -1,10 +1,36 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - ZGCommonComponent (0.1.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15)
+  - Reachability (3.2)
+  - YYModel (1.0.4)
+  - ZGCommonComponent (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - DZNEmptyDataSet (~> 1.8.1)
+    - Masonry (~> 1.1.0)
+    - MJRefresh (= 3.1.15)
+    - Reachability (~> 3.2)
+    - YYModel (~> 1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,15 +38,27 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
+    - DZNEmptyDataSet
     - FBSnapshotTestCase
+    - Masonry
+    - MJRefresh
+    - Reachability
+    - YYModel
 
 EXTERNAL SOURCES:
   ZGCommonComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZGCommonComponent: 21c999a19ea4d51942dd1774ded46a27921c46f2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZGCommonComponent: 0cf014e02ba3c34a079e4ce317be6bfc325fb96e
 
 PODFILE CHECKSUM: 4d77196c200df3cb4665cddec33a50b442310567
 

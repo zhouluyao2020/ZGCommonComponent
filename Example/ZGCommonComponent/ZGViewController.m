@@ -7,7 +7,7 @@
 //
 
 #import "ZGViewController.h"
-
+#import <ZGCommonComponent/ZGCMNetworkStatusUtil.h>
 @interface ZGViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[ZGCMNetworkStatusUtil shareInstance] isNetworkReach];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZGCommonComponent"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/DZNEmptyDataSet" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/ZGCommonComponent"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZGCommonComponent/ZGCommonComponent.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability/Reachability.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZGCommonComponent/ZGCommonComponent.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "ZGCommonComponent"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CoreFoundation" -framework "CoreGraphics" -framework "DZNEmptyDataSet" -framework "Foundation" -framework "MJRefresh" -framework "Masonry" -framework "MobileCoreServices" -framework "Reachability" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "YYModel" -framework "ZGCommonComponent"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
