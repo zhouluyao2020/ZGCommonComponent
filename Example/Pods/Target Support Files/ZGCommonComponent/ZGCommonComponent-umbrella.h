@@ -16,7 +16,7 @@
 #import "UIColor+Hex.h"
 #import "UILabel+quick.h"
 #import "UIScrollView+EmptyData.h"
-#import "UIView+Frame.h"
+#import "UIView+ZGFrame.h"
 #import "ZGNotificationConst.h"
 #import "ZGURLConst.h"
 #import "ZGFileInfoModel.h"
